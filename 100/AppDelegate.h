@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeVC.h"
+#import "GameVC.h"
+#import <VungleSDK/VungleSDK.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
