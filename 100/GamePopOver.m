@@ -33,6 +33,9 @@
         _label.textAlignment=NSTextAlignmentCenter;
         _label.font=[UIFont fontWithName:@"Kreon-Light" size:headerFontSize];
         _label.text=@"Game Over";
+        _label.hidden = YES;
+        
+        
         [self addSubview:_label];
         [_label release];
         
@@ -76,7 +79,7 @@
         
         if([[UIDevice currentDevice].model isEqualToString:kDeviceType]){
             _penalityMinsLbl.frame=CGRectMake(self.frame.size.width/2+55.0, yOffset, self.frame.size.width/2-10.0, 60.0);
-            _penalityMinsLbl.font=[UIFont fontWithName:@"Kreon-Light" size:35.0];
+            _penalityMinsLbl.font=[UIFont fontWithName:@"Hevetica" size:35.0];
         }
         [self addSubview:_penalityMinsLbl];
         
